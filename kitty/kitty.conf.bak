@@ -73,7 +73,16 @@ map ctrl+enter new_window
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="FiraCode Nerd Font"
+# font_family      FiraCode Nerd Font Mono
+
+detect_urls yes
+url_style straight
+
+shell /usr/bin/fish
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="Nimbus Mono PS"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
