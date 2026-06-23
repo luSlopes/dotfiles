@@ -15,7 +15,7 @@
         "clock"
     ],
     "modules-right": [
-        "group/tray-group",
+        "tray",
         "group/system",
         "pulseaudio"
     ],
@@ -95,14 +95,8 @@
         "tooltip-format": "{timeTo}"
     },
 
-    "group/tray": {
-        "orientation": "horizontal",
-        "modules": [
-            "tray"
-        ]
-    },
-
     "tray": {
+        "orientation": "horizontal",
         "icon-size": 16,
         "spacing": 10
     },

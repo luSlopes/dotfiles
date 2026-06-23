@@ -110,6 +110,9 @@ window#waybar {
 }
 
 #tray {
+    border-radius: 16px;
+    margin: 4px 4px;
+    background-color: rgba(24, 24, 37, 0.85);
     padding: 0 4px;
 }
 
@@ -119,8 +122,6 @@ window#waybar {
 
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
-    background-color: rgba(243, 139, 168, 0.3);
-    border-radius: 10px;
 }
 
 #pulseaudio {
